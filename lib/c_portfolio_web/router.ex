@@ -15,8 +15,9 @@ defmodule CPortfolioWeb.Router do
 
   scope "/", CPortfolioWeb do
     pipe_through :browser
-
+     
     get "/", PageController, :index
+    get "/mainpage", MainpageController, :index
   end
 
   # Other scopes may use custom stacks.
