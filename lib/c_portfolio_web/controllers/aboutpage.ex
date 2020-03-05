@@ -1,4 +1,4 @@
-defmodule CPortfolioWeb.MainpageController do
+defmodule CPortfolioWeb.AboutController do
 	use CPortfolioWeb, :controller
 
 	def index(conn, _params) do

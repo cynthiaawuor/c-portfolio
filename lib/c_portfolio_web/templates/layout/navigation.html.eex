@@ -12,10 +12,10 @@
     </div>
     <div>
       <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-grey-darkest mr-4 no-underline hover:underline">
-        Home
+        <%= link "Home", to: Routes.page_path(@conn, :index) %>
       </a>
       <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-grey-darkest mr-4 no-underline hover:underline">
-        About
+        <%= link "About", to: Routes.about_path(@conn, :index) %>
       </a>
       <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-grey-darkest mr-4 no-underline hover:underline">
         Contact
