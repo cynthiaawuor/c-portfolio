@@ -1,0 +1,4 @@
+<div class>
+  <h1><%= gettext "Welcome to %{name}", name: "My portfolio" %></h1>
+  <p>Vibrant Village is a private foundation working to improve food security, family health, financial wellbeing, and education in communities around the world. We make grants to non-profit organizations and directly manage programs from our field offices in Ecuador, Ghana, and Kenya.</p>
+  </div>
