@@ -1,0 +1,4 @@
+<section class="phx-hero">
+  <h1><%= gettext "Welcome to %{name}!", name: "My Portfolio" %></h1>
+  <p>Female Activist<br/>Mathematics And Computer Science Student</p>
+</section>
